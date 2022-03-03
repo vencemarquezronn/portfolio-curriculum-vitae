@@ -1,13 +1,43 @@
 /* Globales */
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: start;
 }
 
-/*h1  {
-    
-}*/
+h1 {
+    font-style: normal;
+    font-size: 4.5rem;
+    font-weight: 200;
+}
+h3 {
+    color: #346081;
+}
+
+h4 {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.profile {
+    background-color: #ececec;
+    max-width: 25%;
+    padding: 1.5rem;
+}
+
+#img-container {
+    display: flex;
+    justify-content: center;
+}
 
 #profile-img {
-    max-width: 15%;
+    max-width: 60%;
+    border: 0.35rem solid #346081;
+    border-radius: 50%;
+}
+
+.content {
+    padding: 1.5rem;
 }
