@@ -37,6 +37,7 @@ body {
 }
 
 /* Responsive */
+/* Celulares*/
 @media (max-width: 415px) {
     .header{
         display: flex;
@@ -47,7 +48,7 @@ body {
         padding-top: 5px;
     }
 }
-
+/*Tabletas o más grandes*/
 @media (min-width: 749px) {
     .content {
         display: grid;
